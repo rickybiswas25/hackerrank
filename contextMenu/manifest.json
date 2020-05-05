@@ -1,0 +1,16 @@
+
+{
+
+    "description": "Search selected text in duck duck go",
+    "manifest_version": 2,
+    "name": "Search in duck duck go",
+    "version": "1.0",
+    "icons": {
+      "48": "icons/icon.png"
+    },
+
+    "permissions": ["contextMenus"],
+    "background": {
+        "scripts": ["background.js"]
+    }
+  }
