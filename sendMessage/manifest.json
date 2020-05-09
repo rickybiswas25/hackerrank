@@ -1,0 +1,20 @@
+
+{
+
+    "description": "Send message between scripts",
+    "manifest_version": 2,
+    "name": "Send message between scripts",
+    "version": "1.0",
+    "icons": {
+      "48": "icons/icon.png"
+    },
+    "background": {
+        "scripts": ["background.js"]
+    },
+
+    "browser_action": {
+        "default_title": "Notify",
+        "default_icon": "icons/icon.png",
+        "default_popup": "index.html"
+    }
+  }
