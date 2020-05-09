@@ -16,5 +16,6 @@
         "default_title": "Notify",
         "default_icon": "icons/icon.png",
         "default_popup": "index.html"
-    }
+    },
+    "permissions":["notifications"]
   }
